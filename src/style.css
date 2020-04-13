@@ -1,0 +1,159 @@
+
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar {
+    margin-bottom: 0px;
+    opacity: 0.9; 
+    filter:(opacity=50); 
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for Top section / bio picture / Introduction  */
+#top {
+    color: white;
+    background-color: #373737;
+    padding-bottom: 50px;
+}
+#biopic {
+    float: left;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+.introduction {
+    font-family: 'Buda', cursive;
+    font-size: 50px;
+    margin-left: 150px;
+}
+.title {
+    font-family: 'Buda', cursive;
+    margin-left: 150px;
+    font-size: 35px;
+}
+.bio {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+/* Styling for Middle Section / Portfolio */
+#portfolio-header {
+    color: white;
+    background-color: #779a8f;
+    height: 150px;
+    font-family: 'Buda', cursive;
+    padding-top: 50px;
+}
+.assignmentTitle {
+    color: white;
+    background-color: #779a8f;
+    font-family: 'Buda', cursive;
+}
+.assignmentTitle2 {
+    height: 120px;
+    background-color: #779a8f;
+    color: white;
+    font-family: 'Buda', cursive;
+    padding-top: 80px;
+}
+.img-1 {
+    margin: 0px;
+    padding: 0px;
+}
+.img-1 img:nth-child(2) {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.img-2 {
+    margin: 0px;
+    padding: 0px;
+}
+.img-2 img:nth-child(2) {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.img-3 {
+    margin: 0px;
+    right: 0px;
+    padding: 0px;
+}
+.img-3 img:nth-child(2) {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.inspect {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    line-height: 50px;
+    width: 50%;
+    opacity: .5;
+    text-align: center;
+}
+.link {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    line-height: 50px;
+    width: 50%;
+    opacity: .5;
+    text-align: center;
+}
+.image {
+    position: absolute;
+    bottom: 0px;
+    left: 33.3%;
+    line-height: 50px;
+    width: 33.3%;
+    opacity: .3;
+}
+.image:hover {
+    background-color: black;
+    color: white;
+}
+    
+.link:hover {
+    background-color: black;
+    color: white;
+}
+.inspect:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Styling for Bottom Section / Contact */
+#contact {
+    color: white;
+    background-color: #779a8f;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.contact {
+    font-family: 'Buda', cursive;
+}
+.btn {
+    width: 250px;
+}
