@@ -1,6 +1,6 @@
 # React-Portfolio
 
-Title: Portfolio3
+
 
 Introduction: This  portfolio was updated using React and showcases works completed by Lynn O'Neill. It also contains a basic auto-biography, a profile picture, and a contact form for convenient communications with Lynn.
 
